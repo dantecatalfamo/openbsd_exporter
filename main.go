@@ -8,7 +8,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
-var addr = flag.String("listen-address", ":8080", "The address to listen on for HTTP requests.")
+var addr = flag.String("listen-address", ":8002", "The address to listen on for HTTP requests.")
 
 func main() {
 	flag.Parse()
